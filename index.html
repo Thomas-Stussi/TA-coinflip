@@ -34,7 +34,7 @@
                 Guess a number between 1 and 20. I'll tell you if it is too high or too low. You have four guesses to find the right answer. Good luck!
             </p>
 
-            <div>
+            <div id="hide-me">
                 <label for="number-input">Enter your number here:</label>
                 <input type="number" id="number-input" min="1" max="20">
                 <br>
@@ -43,12 +43,12 @@
                 <div class="feedback">
                     <span id="tries-remaining">4 tries remaining.</span>
                     <br>    
-                    <span id="guess-was"></span>    
+                    <span id="guess"></span>    
                 </div>
             </div>
 
             <div id="results-section">
-                <div id="win-lose"></div>
+                <p id="win-lose"></p>
                 <input type="reset" class="button" id="reset">
             </div>
 
